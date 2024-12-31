@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boundless Journeys</title>
+</head>
+<style>
+    .header{
+        text-align: center;
+        background-color: #faf8eb;
+
+    }
+    .header h1{
+        font-size: 3em;
+    }
+    .card{
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        background-color: #faf8eb;
+        
+      
+    }
+    .card img{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .container{
+        display: grid;
+        grid-template-areas: "c1 c2 c3 c4"
+                             "c1 c2 c3 c4"
+                             "c1 c2 c3 c4";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    @media (max-width: 600px) {
+        .container{
+            display: grid;
+            grid-template-areas: "c1"
+                                 "c2"
+                                 "c3"
+                                 "c4";
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        
+    }
+    @media (max-width: 900px) {
+        .container{
+            display: grid;
+            grid-template-areas: "c1 c2"
+                                 "c3 c4";
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+    }
+</style>
+<body style="margin: 0; background-color: #f7f5ed;">
+    <div class="header">
+        <h1>Boundless Journeys</h1>
+        <p>A celebration of exploration and discovery, where every step leads to new horizons and limitless possibilities. Join us as we traverse uncharted paths, embracing the thrill of the unknown and the beauty of the journey itself.</p>
+    </div>
+        <h2>Our Journeys</h2>
+
+<div class="container">
+
+    <div class="card" style="grid-area: 'c1';">
+        <img src="https://i.pinimg.com/originals/e1/e0/c3/e1e0c31003a366f3e6b8635a605cab57.gif" alt="">
+        <h3>Journey 1</h3>
+        <p>Beneath the moonlit sky, an ancient archway by a calm river glowed faintly, guarding secrets of the past.</p>
+    </div>
+
+    <div class="card" style="grid-area: 'c2';">
+        <img src="https://i.pinimg.com/originals/50/3c/57/503c57341c2d1c861672f2d567d335d5.gif" alt="">
+        <h3>Journey 2</h3>
+        <p>A lone campfire flickered in the dark forest, its warmth a refuge for unseen travelers.</p>
+    </div>
+
+    <div class="card" style="grid-area: 'c3';">
+        <img src="https://i.pinimg.com/originals/b9/e3/a3/b9e3a3ea7409eb306b77c3faaf38f216.gif" alt="">
+        <h3>Journey 3</h3>
+        <p>In a misty garden, a quiet lamppost stood among overgrown greenery, whispering tales of old.
+
+        </p>
+    </div>
+
+    <div class="card" style="grid-area: 'c4';">
+        <img src="https://i.pinimg.com/originals/c4/aa/ab/c4aaabb1ed11bc37a498d5a298871377.gif" alt="">
+        <h3>Journey 4</h3>
+        <p>A cozy cabin nestled in snowy woods promised warmth and shelter from the winter chill.</p>
+    </div>
+
+    <div class="card" style="grid-area: 'c1';">
+        <img src="https://i.pinimg.com/originals/c4/1d/56/c41d5686fb46fcd8244549e61332e6c8.gif" alt="">
+        <h3>Journey 5</h3>
+        <p>Towering cliffs and gentle waves met in serene silence, where nature’s beauty reigned supreme.</p>
+    </div>
+
+    <div class="card" style="grid-area: 'c2';">
+        <img src="https://i.pinimg.com/originals/75/8f/94/758f944be1b4753fb668911676e49096.gif" alt="">
+        <h3>Journey 6</h3>
+        <p>A lush jungle, vibrant and alive, concealed ancient secrets within its green embrace.</p>
+    </div>
+
+    <div class="card" style="grid-area: 'c2';">
+        <img src="https://i.pinimg.com/originals/55/c7/f1/55c7f1377ef9c3c571e9e9aced9f9cab.gif" alt="">
+        <h3>Journey 7</h3>
+        <p>The savanna blazed with the colors of sunset, its trees standing still against the fiery sky.
+
+        </p>
+    </div>
+
+    <div class="card" style="grid-area: 'c2';">
+        <img src="https://i.pinimg.com/originals/fd/90/4f/fd904f07ece653081c2849856dfa0311.gif" alt="">
+        <h3>Journey 8</h3>
+        <p>Under crimson leaves, a quiet shrine invited reflection and peace amidst autumn’s beauty.</p>
+    </div>
+
+
+</div>
+
+</body>
+</html>
