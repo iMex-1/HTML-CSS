@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competance_Menu</title>
+</head>
+<style>
+    .item{
+        display: flex;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        justify-content: space-between;
+        
+        
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        
+    }
+    .progress{
+        background-color: #3498db;
+        padding: 4px;
+        border-radius: 20px;
+        justify-items: end;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h1>Mes Competances Techniques</h1>
+    <div class="container">
+        <div class="item">React
+            <span class="progress">80%</span>
+        </div>
+        <div class="item">Laravel
+            <span class="progress" style="background-color: red;color: white;">65%</span>
+        </div>
+        <div class="item">Next.js
+            <span class="progress" style="background-color: black;color: white;">70%</span>
+        </div>
+        <div class="item">Node.js
+            <span class="progress" style="background-color: green;color: white;">50%</span>
+        </div>
+    </div>
+</body>
+</html>
